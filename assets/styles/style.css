@@ -3,6 +3,8 @@
     --not-cadet-blue: #182A62;
     --green: #33AB5F;
     --grey: #E7E7DE;
+    --title-font-family: "Pridi", Georgia;
+    --body-font-family: "Noto Sans", Verdana, sans-serif;
 }
 
 *{
