@@ -58,3 +58,9 @@ header li{
     align-items: center;
     list-style: none;
 }
+
+.cover-section{
+    background-color: var(--not-cadet-blue);
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
