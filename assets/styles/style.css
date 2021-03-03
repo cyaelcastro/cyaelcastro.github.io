@@ -16,3 +16,45 @@
 html{
     font-size: 62.5%;
 }
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background-color: var(--not-cadet-blue);
+    border-bottom: 5px solid #33AB5F;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--body-font-family);
+}
+
+header li{
+    display: inline-block;      
+}
+
+.header__download-button{
+    width: 75px;
+    height: 25px;
+    font-size: 1.2rem;
+    background-color: var(--green);
+    border-radius: 12px;
+    text-align: center;
+   
+}
+
+.header__contact-button{
+    width: 43px;
+    height: 20px;
+    font-size: 1.2rem;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.header__link{
+    color: var(--grey);
+    text-decoration: none;
+    line-height: 2.5rem;
+    vertical-align: text-bottom;
+    align-items: center;
+    list-style: none;
+}
