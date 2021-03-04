@@ -73,7 +73,7 @@ header li{
     grid-row-start: 2;
     height: 100%;
     width: 100%;
-    min-height: 425px;
+    min-height: 400px;
     max-height: 800px;
     min-width: 250px;
     max-width: 800px;
@@ -83,4 +83,28 @@ header li{
     color: var(--grey);
     justify-content: center;
     align-items: center;
+}
+
+.introduction-container__greeting{
+    font-family: var(--title-font-family);
+    color: var(--grey);
+    font-size: 2.4rem;
+}
+
+.introduction-container__name{
+    font-family: var(--title-font-family);
+    color: var(--grey);
+    font-size: 2.4rem;
+    margin: 0 0 15px 0
+}
+.introduction-container__name_green{
+    color: var(--green);
+    font-weight: 500;
+}
+.introduction-container__description{
+    font-family: var(--body-font-family);
+    font-size: 1.8rem;
+    color: var(--grey);
+    text-align: center;
+    margin-top: 15px;
 }
