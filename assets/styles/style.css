@@ -171,3 +171,13 @@ header li{
     font-size: 1.4rem;
     text-align: center;
 }
+
+.self-introduction-section__button{
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--not-cadet-blue);
+    color: var(--grey);
+    font-size: 1.4rem;
+}
