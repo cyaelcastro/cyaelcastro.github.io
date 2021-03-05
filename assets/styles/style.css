@@ -181,3 +181,12 @@ header li{
     color: var(--grey);
     font-size: 1.4rem;
 }
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--grey);
+}
