@@ -128,3 +128,21 @@ header li{
 .self-introduction-section__title{
     margin: 30px 0;
 }
+
+.self-introduction-section__description{
+    font-size: 1.4rem;
+    font-family: var(--body-font-family);
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 10px;
+    width: 75vw;
+    max-width: 600px;
+    margin-bottom: 50px;
+    color: var(--grey);
+    line-height: 2.2rem;
+}
+
+.self-introduction-section__description span{
+    color: var(--not-cadet-blue);
+    font-weight: bold;
+}
