@@ -190,3 +190,7 @@ header li{
     width: 100vw;
     background-color: var(--grey);
 }
+
+.projects-section__title{
+    margin: 30px auto;
+}
