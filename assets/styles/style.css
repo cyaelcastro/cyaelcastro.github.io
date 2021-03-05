@@ -146,3 +146,28 @@ header li{
     color: var(--not-cadet-blue);
     font-weight: bold;
 }
+
+.self-introduction-section__skills{
+    width: 80%;
+    height: 200px;
+    max-width: 400px;
+    font-family: var(--body-font-family);
+    margin-bottom: 50px;
+}
+
+.self-introduction-section__skills th{
+    color: var(--grey);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--grey);
+    margin: 0 50px;
+}
+
+.self-introduction-section__skills td{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--not-cadet-blue);
+    font-size: 1.4rem;
+    text-align: center;
+}
