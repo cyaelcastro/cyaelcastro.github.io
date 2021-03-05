@@ -194,3 +194,19 @@ header li{
 .projects-section__title{
     margin: 30px auto;
 }
+
+.projects-section__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 110px 110px 110px ;
+    grid-gap: 15px;
+    margin: 0 15px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--not-cadet-blue);
+    max-width: 200px;
+}
