@@ -235,3 +235,8 @@ header li{
     flex-direction: column;
     align-items: center;
 }
+
+.contact-section__title{
+    color: var(--grey);
+    margin: 30px auto;
+}
