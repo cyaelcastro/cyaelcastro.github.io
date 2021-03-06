@@ -226,3 +226,12 @@ header li{
     color: var(--grey);
     font-family: var(--body-font-family);
 }
+
+.contact-section{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--not-cadet-blue);
+    flex-direction: column;
+    align-items: center;
+}
