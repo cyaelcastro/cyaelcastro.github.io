@@ -240,3 +240,11 @@ header li{
     color: var(--grey);
     margin: 30px auto;
 }
+
+.contact-section span{
+    font-size: 2.4rem;
+    color: var(--grey);
+    font-family: var(--title-font-family);
+    font-weight: 500;
+    margin: 30px auto;
+}
