@@ -249,7 +249,7 @@ header li{
     margin: 30px auto;
 }
 
-.contact-section button{
+.contact-section span:nth-child(3){
     height: 40px;
     width: 180px;
     border: none;
@@ -259,6 +259,17 @@ header li{
     font-size: 1.4rem;
     margin: 30px auto;
     font-family: var(--body-font-family);
+}
+
+.contact-section span:nth-child(3) a{
+    color: var(--grey);
+    width: inherit;
+    height: inherit;
+    line-height: 40px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
 }
 
 
