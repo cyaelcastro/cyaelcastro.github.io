@@ -248,3 +248,15 @@ header li{
     font-weight: 500;
     margin: 30px auto;
 }
+
+.contact-section button{
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--green);
+    color: var(--grey);
+    font-size: 1.4rem;
+    margin: 30px auto;
+    font-family: var(--body-font-family);
+}
