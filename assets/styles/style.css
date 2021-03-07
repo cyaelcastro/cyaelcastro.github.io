@@ -260,3 +260,32 @@ header li{
     margin: 30px auto;
     font-family: var(--body-font-family);
 }
+
+
+.contact-section__logo-container{
+    display: flex;
+    margin: 30px auto;
+    height: 50px;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.github{
+    background-image: url("../logos/github.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkedin{
+    background-image: url("../logos/linkedin.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 56px;
+}
