@@ -19,3 +19,15 @@ header{
 .header__link{
     line-height: 4rem;
 }
+
+.introduction-container__greeting{
+    font-size: 4.2rem;
+}
+
+.introduction-container__name{
+    font-size: 4.2rem;
+    margin: 0 0 15px 0
+}
+.introduction-container__description{
+    font-size: 3rem;
+}
