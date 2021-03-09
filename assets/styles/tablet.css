@@ -105,3 +105,28 @@ header{
 .project__description{
     font-size: 2rem;
 }
+
+.contact-section{
+    min-height: 800px;
+    max-height: 900px;
+}
+
+.contact-section__title{
+    margin: 45px auto;
+}
+
+.contact-section span{
+    font-size: 4.2rem;
+    margin: 45px auto;
+}
+
+.contact-section span:nth-child(3){
+    height: 60px;
+    width: 225px;
+    font-size: 1.4rem;
+    margin: 45px auto;
+}
+
+.contact-section span:nth-child(3) a{
+    line-height: 40px;
+}
