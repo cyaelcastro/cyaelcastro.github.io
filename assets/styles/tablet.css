@@ -74,3 +74,24 @@ header{
     width: 225px;
     font-size: 1.8rem;
 }
+
+.projects-section{
+    min-height: 750px;
+    max-height: 850px;
+    background-color: var(--grey);
+}
+
+.projects-section__title{
+    margin: 45px auto;
+}
+
+.projects-section__grid{
+    grid-template-rows: 175px 175px 175px ;
+    grid-gap: 25px 60px;
+    margin: 0 15px;
+}
+
+.project{
+    max-width: 400px;
+    padding: 0 45px;
+}
