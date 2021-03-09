@@ -31,3 +31,46 @@ header{
 .introduction-container__description{
     font-size: 3rem;
 }
+
+
+.self-introduction-section{
+    min-height: 875px;
+    max-height: 950px;
+}
+
+.section-title{
+    font-size: 4.2rem;
+}
+
+.self-introduction-section__title{
+    margin: 45px 0;
+}
+
+.self-introduction-section__description{
+    font-size: 3.0rem;
+    margin-right: 45px;
+    max-width: 700px;
+    margin-bottom: 45px;
+    line-height: 4.5rem;
+}
+
+.self-introduction-section__skills{
+    height: 300px;
+    max-width: 700px;
+    margin-bottom: 45px;
+}
+
+.self-introduction-section__skills th{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.self-introduction-section__skills td{
+    font-size: 2rem;
+}
+
+.self-introduction-section__button{
+    height: 60px;
+    width: 225px;
+    font-size: 1.8rem;
+}
