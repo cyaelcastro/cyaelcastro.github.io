@@ -130,3 +130,19 @@ header{
 .contact-section span:nth-child(3) a{
     line-height: 60px;
 }
+
+
+.contact-section__logo-container{
+    margin: 45px auto;
+    height: 75px;
+    width: 400px;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.linkedin{
+    width: 85px;
+}
