@@ -189,13 +189,18 @@ header li{
 }
 
 .self-introduction-section__button{
+    display: inherit;
     height: 40px;
     width: 180px;
     border: none;
     border-radius: 12px;
     background-color: var(--not-cadet-blue);
+    font-family: var(--body-font-family);
     color: var(--grey);
     font-size: 1.4rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects-section{
