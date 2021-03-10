@@ -36,3 +36,24 @@
 .self-introduction-section__button{
     height: 60px;
 }
+
+.projects-section{
+    min-height: 850px;
+    max-height: 1200px;
+}
+
+.projects-section__title{
+    margin: 60px auto;
+}
+
+.projects-section__grid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 175px 175px 175px ;
+    grid-gap: 40px 90px;
+    margin: 0 15px;
+}
+
+.project{
+    max-width: 420px;
+    padding: 0 45px;
+}
