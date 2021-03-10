@@ -104,16 +104,17 @@ header{
 
 .project{
     max-width: 400px;
-    padding: 0 45px;
 }
 
 .project__title{
+    padding: 0 45px;
     font-size: 3rem;
     margin-top: 30px;
     line-height: 3.5rem;
 }
 
 .project__description{
+    padding: 0 45px;
     font-size: 2rem;
 }
 

@@ -55,6 +55,13 @@
 
 .project{
     max-width: 420px;
+}
+
+.project__title{
+    padding: 0 45px;
+}
+
+.project__description{
     padding: 0 45px;
 }
 

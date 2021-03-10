@@ -228,12 +228,17 @@ header li{
 }
 
 .project{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     background-color: var(--not-cadet-blue);
     max-width: 200px;
-    padding: 0 10px;
+}
+
+.project a{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
 }
 
 .project__title{
@@ -242,6 +247,7 @@ header li{
     font-family: var(--title-font-family);
     margin-top: 15px;
     line-height: 2rem;
+    padding: 0 10px;
 }
 
 .project__description{
@@ -249,6 +255,7 @@ header li{
     font-size: 1.2rem;
     color: var(--grey);
     font-family: var(--body-font-family);
+    padding: 0 10px;
 }
 
 .contact-section{
