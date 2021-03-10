@@ -320,6 +320,12 @@ header li{
     width: 50px;
 }
 
+.logo a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
 .github{
     background-image: url("../logos/github.png");
     background-size: contain;

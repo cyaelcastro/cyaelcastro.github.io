@@ -155,6 +155,12 @@ header{
     width: 75px;
 }
 
+.logo a{
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+}
+
 .linkedin{
     width: 85px;
 }
