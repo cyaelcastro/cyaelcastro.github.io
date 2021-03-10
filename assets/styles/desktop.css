@@ -57,3 +57,31 @@
     max-width: 420px;
     padding: 0 45px;
 }
+
+.contact-section{
+    min-height: 800px;
+    max-height: 1200px;
+}
+
+.contact-section__title{
+    margin: 60px auto;
+}
+
+.contact-section span{
+    margin: 60px auto;
+}
+
+.contact-section span:nth-child(3){
+    
+    margin: 60px auto;
+}
+
+.contact-section span:nth-child(3) a{
+    line-height: 60px;
+}
+
+
+.contact-section__logo-container{
+    margin: 60px auto;
+    
+}
