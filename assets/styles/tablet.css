@@ -8,15 +8,26 @@ header{
     font-size: 1.4rem;
 }
 
+.header__download-button a{
+    height: 40px;
+    width: 125px;
+}
+
 .header__contact-button{
     width: 50px;
     height: 20px;
     font-size: 1.4rem;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 40px;
+}
+
+.header__contact-button a{
+    height: 40px;
+    width: 70px
 }
 
 .header__link{
+    display: inline-block;
     line-height: 4rem;
 }
 

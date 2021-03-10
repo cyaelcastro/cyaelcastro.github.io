@@ -40,7 +40,11 @@ header li{
     background-color: var(--green);
     border-radius: 12px;
     text-align: center;
-   
+}
+
+.header__download-button a{
+    height: 25px;
+    width: 75px;
 }
 
 .header__contact-button{
@@ -49,9 +53,16 @@ header li{
     font-size: 1.2rem;
     margin-left: 16px;
     margin-right: 16px;
+    width: 50px;
+}
+
+.header__contact-button a{
+    height: 25px;
+    width: 60px
 }
 
 .header__link{
+    display: inline-block;
     color: var(--grey);
     text-decoration: none;
     line-height: 2.5rem;
