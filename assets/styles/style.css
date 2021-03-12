@@ -3,8 +3,14 @@
     --not-cadet-blue: #182A62;
     --green: #33AB5F;
     --grey: #E7E7DE;
+    /* Font Families */
     --title-font-family: "Pridi", Georgia;
     --body-font-family: "Noto Sans", Verdana, sans-serif;
+    /* Font Sizes */
+    --mobile-title: 2.4rem;
+    --mobile-subtitle: 1.8rem;
+    --mobile-text: 1.4rem;
+    --mobile-small-text: 1.2rem;
 }
 
 *{
@@ -36,7 +42,7 @@ header li{
 .header__download-button{
     width: 75px;
     height: 25px;
-    font-size: 1.2rem;
+    font-size: var(--mobile-small-text);
     background-color: var(--green);
     border-radius: 12px;
     text-align: center;
@@ -50,7 +56,7 @@ header li{
 .header__contact-button{
     width: 43px;
     height: 20px;
-    font-size: 1.2rem;
+    font-size: var(--mobile-small-text);
     margin-left: 16px;
     margin-right: 16px;
     width: 50px;
@@ -101,13 +107,13 @@ header li{
 .introduction-container__greeting{
     font-family: var(--title-font-family);
     color: var(--grey);
-    font-size: 2.4rem;
+    font-size: var(--mobile-title);
 }
 
 .introduction-container__name{
     font-family: var(--title-font-family);
     color: var(--grey);
-    font-size: 2.4rem;
+    font-size: var(--mobile-title);
     margin: 0 0 15px 0
 }
 .introduction-container__name_green{
@@ -116,7 +122,7 @@ header li{
 }
 .introduction-container__description{
     font-family: var(--body-font-family);
-    font-size: 1.8rem;
+    font-size: var(--mobile-subtitle);
     color: var(--grey);
     text-align: center;
     margin-top: 15px;
@@ -135,7 +141,7 @@ header li{
 }
 
 .section-title{
-    font-size: 2.4rem;
+    font-size: var(--mobile-title);
     color: var(--not-cadet-blue);
     font-family: var(--title-font-family);
     font-weight: 500;
@@ -146,7 +152,7 @@ header li{
 }
 
 .self-introduction-section__description{
-    font-size: 1.4rem;
+    font-size: var(--mobile-text);
     font-family: var(--body-font-family);
     align-self: flex-end;
     text-align: right;
@@ -173,7 +179,7 @@ header li{
 
 .self-introduction-section__skills th{
     color: var(--grey);
-    font-size: 1.4rem;
+    font-size: var(--mobile-text);
     font-weight: 500;
     margin-bottom: 40px;
     border-bottom: 2px solid var(--grey);
@@ -184,7 +190,7 @@ header li{
     margin-left: 50px;
     margin-right: 50px;
     color: var(--not-cadet-blue);
-    font-size: 1.4rem;
+    font-size: var(--mobile-text);
     text-align: center;
 }
 
@@ -197,7 +203,7 @@ header li{
     background-color: var(--not-cadet-blue);
     font-family: var(--body-font-family);
     color: var(--grey);
-    font-size: 1.4rem;
+    font-size: var(--mobile-text);
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -242,7 +248,7 @@ header li{
 }
 
 .project__title{
-    font-size: 1.8rem;
+    font-size: var(--mobile-subtitle);
     color: var(--green);
     font-family: var(--title-font-family);
     margin-top: 15px;
@@ -252,7 +258,7 @@ header li{
 
 .project__description{
     margin-top: 8px;
-    font-size: 1.2rem;
+    font-size: var(--mobile-small-text);
     color: var(--grey);
     font-family: var(--body-font-family);
     padding: 0 10px;
@@ -276,7 +282,7 @@ header li{
 }
 
 .contact-section span{
-    font-size: 2.4rem;
+    font-size: var(--mobile-title);
     color: var(--grey);
     font-family: var(--title-font-family);
     font-weight: 500;
@@ -290,7 +296,7 @@ header li{
     border-radius: 12px;
     background-color: var(--green);
     color: var(--grey);
-    font-size: 1.4rem;
+    font-size: var(--mobile-text);
     margin: 30px auto;
     font-family: var(--body-font-family);
 }
