@@ -5,7 +5,7 @@ header{
 .header__download-button{
     width: 125px;
     height: 40px;
-    font-size: 1.4rem;
+    font-size: var(--tablet-button-small);
 }
 
 .header__download-button a{
@@ -16,7 +16,7 @@ header{
 .header__contact-button{
     width: 50px;
     height: 20px;
-    font-size: 1.4rem;
+    font-size: var(--tablet-button);
     margin-left: 25px;
     margin-right: 40px;
 }
@@ -32,17 +32,17 @@ header{
 }
 
 .introduction-container__greeting{
-    font-size: 4.2rem;
+    font-size: var(--tablet-title);
 }
 
 .introduction-container__name{
-    font-size: 4.2rem;
+    font-size: var(--tablet-title);
     margin: 0 0 15px 0
 }
-.introduction-container__description{
-    font-size: 3rem;
-}
 
+.introduction-container__description{
+    font-size: var(--tablet-subtitle);
+}
 
 .self-introduction-section{
     min-height: 875px;
@@ -50,7 +50,7 @@ header{
 }
 
 .section-title{
-    font-size: 4.2rem;
+    font-size: var(--tablet-title);
 }
 
 .self-introduction-section__title{
@@ -58,7 +58,7 @@ header{
 }
 
 .self-introduction-section__description{
-    font-size: 3.0rem;
+    font-size: var(--tablet-subtitle);
     margin-right: 45px;
     max-width: 700px;
     margin-bottom: 45px;
@@ -72,18 +72,18 @@ header{
 }
 
 .self-introduction-section__skills th{
-    font-size: 2rem;
+    font-size: var(--tablet-text);
     margin-bottom: 50px;
 }
 
 .self-introduction-section__skills td{
-    font-size: 2rem;
+    font-size: var(--tablet-text);
 }
 
 .self-introduction-section__button{
     height: 60px;
     width: 225px;
-    font-size: 1.8rem;
+    font-size: var(--tablet-button);
 }
 
 .projects-section{
@@ -108,14 +108,14 @@ header{
 
 .project__title{
     padding: 0 45px;
-    font-size: 3rem;
+    font-size: var(--tablet-subtitle);
     margin-top: 30px;
     line-height: 3.5rem;
 }
 
 .project__description{
     padding: 0 45px;
-    font-size: 2rem;
+    font-size: var(--tablet-text);
 }
 
 .contact-section{
@@ -128,21 +128,20 @@ header{
 }
 
 .contact-section span{
-    font-size: 4.2rem;
+    font-size: var(--tablet-title);
     margin: 45px auto;
 }
 
 .contact-section span:nth-child(3){
     height: 60px;
     width: 225px;
-    font-size: 1.8rem;
+    font-size: var(--tablet-button);
     margin: 45px auto;
 }
 
 .contact-section span:nth-child(3) a{
     line-height: 60px;
 }
-
 
 .contact-section__logo-container{
     margin: 45px auto;

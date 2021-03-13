@@ -3,14 +3,24 @@
     --not-cadet-blue: #182A62;
     --green: #33AB5F;
     --grey: #E7E7DE;
+    
     /* Font Families */
     --title-font-family: "Pridi", Georgia;
     --body-font-family: "Noto Sans", Verdana, sans-serif;
+    
     /* Font Sizes */
     --mobile-title: 2.4rem;
     --mobile-subtitle: 1.8rem;
     --mobile-text: 1.4rem;
     --mobile-small-text: 1.2rem;
+
+    --tablet-title: 4.2rem;
+    --tablet-subtitle: 3rem;
+    --tablet-text: 2rem;
+    --tablet-small-text: 1.6rem;
+    --tablet-button: 1.8rem;
+    --tablet-button-small: 1.4rem;
+
 }
 
 *{
