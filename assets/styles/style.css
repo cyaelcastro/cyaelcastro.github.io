@@ -13,6 +13,8 @@
     --mobile-subtitle: 1.8rem;
     --mobile-text: 1.4rem;
     --mobile-small-text: 1.2rem;
+    --mobile-button: 1.6rem;
+    --mobile-button-small: 1.2rem;
 
     --tablet-title: 4.2rem;
     --tablet-subtitle: 3rem;
@@ -52,7 +54,7 @@ header li{
 .header__download-button{
     width: 75px;
     height: 25px;
-    font-size: var(--mobile-small-text);
+    font-size: var(--mobile-button-small);
     background-color: var(--green);
     border-radius: 12px;
     text-align: center;
@@ -66,7 +68,7 @@ header li{
 .header__contact-button{
     width: 43px;
     height: 20px;
-    font-size: var(--mobile-small-text);
+    font-size: var(--mobile-button-small);
     margin-left: 16px;
     margin-right: 16px;
     width: 50px;
@@ -213,7 +215,7 @@ header li{
     background-color: var(--not-cadet-blue);
     font-family: var(--body-font-family);
     color: var(--grey);
-    font-size: var(--mobile-text);
+    font-size: var(--mobile-button);
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -306,7 +308,7 @@ header li{
     border-radius: 12px;
     background-color: var(--green);
     color: var(--grey);
-    font-size: var(--mobile-text);
+    font-size: var(--mobile-button);
     margin: 30px auto;
     font-family: var(--body-font-family);
 }
