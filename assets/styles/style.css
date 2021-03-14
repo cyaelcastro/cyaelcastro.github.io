@@ -23,6 +23,13 @@
     --tablet-button: 1.8rem;
     --tablet-button-small: 1.4rem;
 
+    /* Button Sizes */
+
+    --mobile-call-to-action-width: 200px;
+    --mobile-call-to-action-height: 50px;
+    
+    --mobile-small-button-width: 75px;
+    --mobile-small-button-height: 25px;
 }
 
 *{
@@ -52,8 +59,8 @@ header li{
 }
 
 .header__download-button{
-    width: 75px;
-    height: 25px;
+    width: var(--mobile-small-button-width);
+    height: var(--mobile-small-button-height);
     font-size: var(--mobile-button-small);
     background-color: var(--green);
     border-radius: 12px;
@@ -61,8 +68,8 @@ header li{
 }
 
 .header__download-button a{
-    height: 25px;
-    width: 75px;
+    width: var(--mobile-small-button-width);
+    height: var(--mobile-small-button-height);
 }
 
 .header__contact-button{
@@ -208,8 +215,8 @@ header li{
 
 .self-introduction-section__button{
     display: inherit;
-    height: 40px;
-    width: 180px;
+    height: var(--mobile-call-to-action-height);
+    width: var(--mobile-call-to-action-width);
     border: none;
     border-radius: 12px;
     background-color: var(--not-cadet-blue);
@@ -302,8 +309,8 @@ header li{
 }
 
 .contact-section span:nth-child(3){
-    height: 40px;
-    width: 180px;
+    width: var(--mobile-call-to-action-width);
+    height: var(--mobile-call-to-action-height);
     border: none;
     border-radius: 12px;
     background-color: var(--green);
@@ -317,7 +324,7 @@ header li{
     color: var(--grey);
     width: inherit;
     height: inherit;
-    line-height: 40px;
+    line-height: 50px;
     text-decoration: none;
     list-style: none;
     text-align: center;
