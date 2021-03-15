@@ -30,6 +30,12 @@
     
     --mobile-small-button-width: 75px;
     --mobile-small-button-height: 25px;
+
+    --tablet-call-to-action-width: 225px;
+    --tablet-call-to-action-height: 60px;
+
+    --tablet-small-button-width: 100px;
+    --tablet-small-button-height: 35px;
 }
 
 *{

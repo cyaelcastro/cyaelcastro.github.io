@@ -3,14 +3,14 @@ header{
 }
 
 .header__download-button{
-    width: 125px;
-    height: 40px;
+    width: var(--tablet-small-button-width);
+    height: var(--tablet-small-button-height);
     font-size: var(--tablet-button-small);
 }
 
 .header__download-button a{
-    height: 40px;
-    width: 125px;
+    width: var(--tablet-small-button-width);
+    height: var(--tablet-small-button-height);
 }
 
 .header__contact-button{
@@ -22,13 +22,13 @@ header{
 }
 
 .header__contact-button a{
-    height: 40px;
-    width: 70px
+    width: var(--tablet-small-button-width);
+    height: var(--tablet-small-button-height);
 }
 
 .header__link{
     display: inline-block;
-    line-height: 4rem;
+    line-height: var(--tablet-small-button-height);
 }
 
 .introduction-container__greeting{
@@ -81,8 +81,8 @@ header{
 }
 
 .self-introduction-section__button{
-    height: 60px;
-    width: 225px;
+    width: var(--tablet-call-to-action-width);
+    height: var(--tablet-call-to-action-height);
     font-size: var(--tablet-button);
 }
 
@@ -133,8 +133,8 @@ header{
 }
 
 .contact-section span:nth-child(3){
-    height: 60px;
-    width: 225px;
+    width: var(--tablet-call-to-action-width);
+    height: var(--tablet-call-to-action-height);
     font-size: var(--tablet-button);
     margin: 45px auto;
 }
